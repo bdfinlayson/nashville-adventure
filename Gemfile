@@ -1,4 +1,7 @@
+# A sample Gemfile
 source "https://rubygems.org"
 
-gem "minitest", "4.7.3"
-gem "minitest-reporters"
+gem 'minitest', group: :test
+gem 'minitest-reporters', group: :test
+
+# gem "rails"
