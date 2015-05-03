@@ -1,7 +1,14 @@
 require_relative 'player'
 
-print "It is early morning. You wake up to the sound of birds chirping outside. You decide to:"
+class Game
+  attr_accessor :input
+
+  def initialize
+    @input = "=> "
+  end
 
 #response = gets.strip
 #player = Player.new(response)
 #print player.name
+
+end
